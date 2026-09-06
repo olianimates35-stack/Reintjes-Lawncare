@@ -18,9 +18,12 @@ profile (instagram.com/reintjeslawncare) — both provided by the client:
   bio), plus land clearing, stump removal, bush/shrub trimming, and
   grading/raised-bed work (from real Nextdoor service requests)
 - Free quotes via DM confirmed by the Instagram bio
-- No completed-job reviews exist yet — the Nextdoor "recommendations" are
-  people asking for quotes, not feedback on finished work, so they were not
-  used as testimonials.
+- The Nextdoor "recommendations" are people asking for quotes, not feedback
+  on finished work, so they were not used as testimonials. Two real
+  completed-job reviews (Instagram comments from @canyon_kiernan and
+  @evan.moreland_) are used in the "Customer Love" section instead, quoted
+  and attributed exactly as posted — no star ratings were added since
+  Instagram comments don't carry one.
 
 ## Structure
 
@@ -51,10 +54,6 @@ Then visit `http://localhost:8000`.
     once actually verified, since it's a factual claim customers may rely on.
   - **Business hours** — not listed on Nextdoor or Instagram; add the real
     hours once known.
-  - **The three review cards** under "Customer Love" are layout placeholders,
-    not real customer quotes — there are no completed-job reviews yet, so
-    don't fill these in with invented ones. Swap in real quotes as they
-    come in.
 - The gallery uses real job photos supplied for this project. One additional
   photo (an overgrown, unmowed yard — likely a land-clearing job, matching
   their real service line) was intentionally left out of the gallery: it has

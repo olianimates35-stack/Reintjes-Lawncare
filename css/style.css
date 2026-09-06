@@ -324,23 +324,26 @@ p { margin: 0 0 16px; }
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
+.reviews-grid-2 {
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  max-width: 760px;
+  margin: 0 auto;
+}
 .review-card {
   background: var(--white);
   border-radius: var(--radius);
   padding: 30px;
   box-shadow: var(--shadow);
 }
-.stars { color: #f4b400; letter-spacing: 2px; margin-bottom: 12px; }
-.review-author { font-weight: 700; color: var(--navy); }
-
-.placeholder-card {
-  border: 2px dashed var(--gray-100);
-  box-shadow: none;
-  background: var(--gray-50);
+.review-source {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
 }
-.placeholder-card .stars { color: var(--gray-100); }
-.placeholder-card p { color: var(--gray-500); font-style: italic; }
-.placeholder-card .review-author { color: var(--gray-500); font-weight: 600; }
+.review-author { font-weight: 700; color: var(--navy); }
 .placeholder-note { margin-top: 32px; font-size: 0.85rem; }
 
 .placeholder-text {
