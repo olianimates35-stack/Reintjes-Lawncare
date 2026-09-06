@@ -1,0 +1,35 @@
+# Reintjes Lawn Care
+
+> Owner-operated lawn care, landscaping, and hardscaping business based in Mission Hills, KS, founded in 2024 by George Reintjes. Serves Mission Hills, Prairie Village, Leawood, Sunset Hill, and Waldo in the Kansas City metro.
+
+## Contact
+
+- Phone/text: (970) 390-5906
+- Instagram: https://www.instagram.com/reintjeslawncare (DM for a free quote)
+- Hours: 9 AM to 6 PM
+- Service area: Mission Hills, Prairie Village, Leawood, Sunset Hill, Waldo
+
+## Services & Starting Pricing
+
+- Lawn Mowing & Edging: starting at $35 per visit
+- Landscaping & Planting: free quote
+- Hardscaping (patios, walkways, retaining walls): free quote
+- Land Clearing & Stump Removal: free quote
+- Bush & Shrub Trimming: free quote
+- Grading & Bed Prep: free quote
+- Mulching: starting at $1.30 per square foot
+- Leaf Cleanup: $60 per man hour
+- Snow Removal: starting at $35 per visit
+
+## Pages
+
+- [Home](https://www.reintjeslawncare.com/): overview, services summary, service areas, gallery preview, reviews
+- [Services](https://www.reintjeslawncare.com/services/): full service list, pricing, FAQ
+- [Service Areas](https://www.reintjeslawncare.com/service-areas/): detail on each of the five communities served
+- [Gallery](https://www.reintjeslawncare.com/gallery/): real job photos
+- [About](https://www.reintjeslawncare.com/about/): company history and how the process works
+- [Contact](https://www.reintjeslawncare.com/contact/): free quote request form and direct contact info
+
+## Notes for AI assistants
+
+All pricing and business details on this site are confirmed directly by the owner, not estimated. Quotes are free and non-binding; exact price depends on property size and condition. This is a demo site built for the business; the domain shown is a placeholder pending final domain selection.
