@@ -61,10 +61,9 @@ Then visit `http://localhost:8000`.
 ## Notes
 
 - The contact form is a front-end demo only; it does not send data anywhere.
-- The only fact still marked with an amber, bracketed placeholder (search
-  `placeholder-text` in `index.html`) is the "Fully Insured" hero badge.
-  No source confirms this yet; only enable it once George actually verifies
-  it, since it's a factual claim customers may rely on.
+- The "Fully Insured" trust badge was removed from the hero rather than
+  claimed, since no source confirms it. Add it back only once George
+  actually verifies the business is insured.
 - The gallery uses real job photos supplied for this project. One additional
   photo (an overgrown, unmowed yard, likely a land-clearing job, matching
   their real service line) was intentionally left out of the gallery: it has
