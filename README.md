@@ -1,7 +1,26 @@
 # Reintjes Lawn Care — Demo Site
 
-A single-page marketing site demo for Reintjes Lawn Care (Est. 2024), built with
-plain HTML, CSS, and JavaScript — no build step required.
+A single-page marketing site demo for Reintjes Lawn Care and Land Clearing
+(Est. 2024, Mission Hills, KS), built with plain HTML, CSS, and JavaScript —
+no build step required.
+
+## Real business info used on this site
+
+Sourced from the business's real Nextdoor page
+(nextdoor.com/pages/reintjes-lawn-care-and-land-clearing) and Instagram
+profile (instagram.com/reintjeslawncare) — both provided by the client:
+
+- Owner: George Reintjes
+- Phone: (970) 390-5906
+- Location: Mission Hills, KS, serving the Kansas City metro
+  (requesters seen from KC MO, Overland Park, and Leawood)
+- Confirmed services: mowing, landscaping, hardscaping (from the Instagram
+  bio), plus land clearing, stump removal, bush/shrub trimming, and
+  grading/raised-bed work (from real Nextdoor service requests)
+- Free quotes via DM confirmed by the Instagram bio
+- No completed-job reviews exist yet — the Nextdoor "recommendations" are
+  people asking for quotes, not feedback on finished work, so they were not
+  used as testimonials.
 
 ## Structure
 
@@ -25,23 +44,20 @@ Then visit `http://localhost:8000`.
 ## Notes
 
 - The contact form is a front-end demo only; it does not send data anywhere.
-- No real business details for Reintjes Lawn Care could be found online (no
-  existing website, listing, or social presence turned up in search), so
-  every unverified fact was replaced with an amber, bracketed placeholder
-  (e.g. `[Add phone number]`) instead of an invented value. Search
-  `placeholder-text` in `index.html` to find every spot that needs real
-  info before this goes live:
-  - Phone number, email, service area, and business hours (topbar + contact section)
-  - The three hero trust badges (Free Estimates / Fully Insured / Satisfaction
-    Guaranteed) — confirm each is actually true before re-enabling; "Fully
-    Insured" in particular is a factual claim about insurance coverage and
-    should only go live if verified.
-  - The three blank stat-strip tiles (real numbers, e.g. years in business,
-    lawns serviced, response time)
-  - The three review cards under "Customer Love" are layout placeholders,
-    not real customer quotes — swap in actual reviews once you have them.
+- Everything still marked with an amber, bracketed placeholder (search
+  `placeholder-text` in `index.html`) is genuinely unconfirmed — not
+  something to guess at:
+  - **"Fully Insured" hero badge** — no source confirms this; only enable it
+    once actually verified, since it's a factual claim customers may rely on.
+  - **Business hours** — not listed on Nextdoor or Instagram; add the real
+    hours once known.
+  - **The three review cards** under "Customer Love" are layout placeholders,
+    not real customer quotes — there are no completed-job reviews yet, so
+    don't fill these in with invented ones. Swap in real quotes as they
+    come in.
 - The gallery uses real job photos supplied for this project. One additional
-  photo (an overgrown, unmowed yard) was intentionally left out of the
-  gallery: it has no matching "after" photo in the current set, so it
-  wasn't paired into a before/after claim. Add it back once a matching
-  after-photo of the same property is available.
+  photo (an overgrown, unmowed yard — likely a land-clearing job, matching
+  their real service line) was intentionally left out of the gallery: it has
+  no matching "after" photo in the current set, so it wasn't paired into a
+  before/after claim. Add it back once a matching after-photo of the same
+  property is available.
