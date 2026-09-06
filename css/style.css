@@ -333,6 +333,27 @@ p { margin: 0 0 16px; }
 .stars { color: #f4b400; letter-spacing: 2px; margin-bottom: 12px; }
 .review-author { font-weight: 700; color: var(--navy); }
 
+.placeholder-card {
+  border: 2px dashed var(--gray-100);
+  box-shadow: none;
+  background: var(--gray-50);
+}
+.placeholder-card .stars { color: var(--gray-100); }
+.placeholder-card p { color: var(--gray-500); font-style: italic; }
+.placeholder-card .review-author { color: var(--gray-500); font-weight: 600; }
+.placeholder-note { margin-top: 32px; font-size: 0.85rem; }
+
+.placeholder-text {
+  color: #f4b400 !important;
+  border-bottom: 1px dashed #f4b400;
+  padding-bottom: 1px;
+  font-style: italic;
+}
+.placeholder-text:hover { color: #f4b400 !important; }
+.placeholder-text strong,
+.placeholder-text span { color: #f4b400 !important; }
+.strip-item.placeholder-text span { border-bottom: 1px dashed rgba(244, 180, 0, 0.5); }
+
 /* Contact */
 .cta-section { background: var(--navy); color: var(--white); }
 .cta-section .eyebrow { color: var(--blue-light); }

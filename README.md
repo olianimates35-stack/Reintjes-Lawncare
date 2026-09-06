@@ -25,5 +25,23 @@ Then visit `http://localhost:8000`.
 ## Notes
 
 - The contact form is a front-end demo only; it does not send data anywhere.
-- Placeholder phone/email/address details in the footer and contact section
-  should be swapped for the real business info before going live.
+- No real business details for Reintjes Lawn Care could be found online (no
+  existing website, listing, or social presence turned up in search), so
+  every unverified fact was replaced with an amber, bracketed placeholder
+  (e.g. `[Add phone number]`) instead of an invented value. Search
+  `placeholder-text` in `index.html` to find every spot that needs real
+  info before this goes live:
+  - Phone number, email, service area, and business hours (topbar + contact section)
+  - The three hero trust badges (Free Estimates / Fully Insured / Satisfaction
+    Guaranteed) — confirm each is actually true before re-enabling; "Fully
+    Insured" in particular is a factual claim about insurance coverage and
+    should only go live if verified.
+  - The three blank stat-strip tiles (real numbers, e.g. years in business,
+    lawns serviced, response time)
+  - The three review cards under "Customer Love" are layout placeholders,
+    not real customer quotes — swap in actual reviews once you have them.
+- The gallery uses real job photos supplied for this project. One additional
+  photo (an overgrown, unmowed yard) was intentionally left out of the
+  gallery: it has no matching "after" photo in the current set, so it
+  wasn't paired into a before/after claim. Add it back once a matching
+  after-photo of the same property is available.
