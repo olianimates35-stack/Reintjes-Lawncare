@@ -93,10 +93,8 @@ Sourced from the business's real Nextdoor page
 ## Notes
 
 - The contact form is a front-end demo only; it does not send data anywhere.
-- The canonical/OG/schema URLs use `https://www.reintjeslawncare.com/` as a
-  **placeholder domain**. It has not been purchased yet. Once a real domain
-  is chosen, do a find-and-replace for that string across every page,
-  `robots.txt`, `sitemap.xml`, and `llms.txt`.
+- The canonical/OG/schema URLs use `https://www.reintjeslawncare.org/`, the
+  real, purchased domain for this business.
 - The "Fully Insured" claim was removed entirely (not just flagged) since no
   source confirms it. Don't re-add it without the owner explicitly
   confirming coverage.

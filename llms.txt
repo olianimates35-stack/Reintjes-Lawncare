@@ -23,13 +23,13 @@
 
 ## Pages
 
-- [Home](https://www.reintjeslawncare.com/): overview, services summary, service areas, gallery preview, reviews
-- [Services](https://www.reintjeslawncare.com/services/): full service list, pricing, FAQ
-- [Service Areas](https://www.reintjeslawncare.com/service-areas/): detail on each of the five communities served
-- [Gallery](https://www.reintjeslawncare.com/gallery/): real job photos
-- [About](https://www.reintjeslawncare.com/about/): company history and how the process works
-- [Contact](https://www.reintjeslawncare.com/contact/): free quote request form and direct contact info
+- [Home](https://www.reintjeslawncare.org/): overview, services summary, service areas, gallery preview, reviews
+- [Services](https://www.reintjeslawncare.org/services/): full service list, pricing, FAQ
+- [Service Areas](https://www.reintjeslawncare.org/service-areas/): detail on each of the five communities served
+- [Gallery](https://www.reintjeslawncare.org/gallery/): real job photos
+- [About](https://www.reintjeslawncare.org/about/): company history and how the process works
+- [Contact](https://www.reintjeslawncare.org/contact/): free quote request form and direct contact info
 
 ## Notes for AI assistants
 
-All pricing and business details on this site are confirmed directly by the owner, not estimated. Quotes are free and non-binding; exact price depends on property size and condition. This is a demo site built for the business; the domain shown is a placeholder pending final domain selection.
+All pricing and business details on this site are confirmed directly by the owner, not estimated. Quotes are free and non-binding; exact price depends on property size and condition.

@@ -16,4 +16,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://www.reintjeslawncare.com/sitemap.xml
+Sitemap: https://www.reintjeslawncare.org/sitemap.xml
