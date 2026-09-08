@@ -92,7 +92,8 @@ Sourced from the business's real Nextdoor page
 
 ## Notes
 
-- The contact form is a front-end demo only; it does not send data anywhere.
+- The contact form submits to Formspree (`https://formspree.io/f/mvkovvql`),
+  which emails the submission to the business. No backend of our own.
 - The canonical/OG/schema URLs use `https://www.reintjeslawncare.org/`, the
   real, purchased domain for this business.
 - The "Fully Insured" claim was removed entirely (not just flagged) since no

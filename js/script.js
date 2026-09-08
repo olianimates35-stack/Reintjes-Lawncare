@@ -15,10 +15,32 @@ if (navToggle && header) {
 const form = document.getElementById('quote-form');
 if (form) {
   const formNote = document.getElementById('form-note');
-  form.addEventListener('submit', (e) => {
+  const submitBtn = form.querySelector('button[type="submit"]');
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    formNote.textContent = 'Thanks! This is a demo site, so no request was actually sent. This is where your quote confirmation would appear.';
-    form.reset();
+    submitBtn.disabled = true;
+    formNote.className = 'form-note';
+    formNote.textContent = 'Sending...';
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' },
+      });
+      if (response.ok) {
+        formNote.className = 'form-note form-note-success';
+        formNote.textContent = "Thanks! Your request is in. We'll get back to you shortly.";
+        form.reset();
+      } else {
+        formNote.className = 'form-note form-note-error';
+        formNote.textContent = 'Something went wrong sending that. Please call or text (970) 390-5906 instead.';
+      }
+    } catch (err) {
+      formNote.className = 'form-note form-note-error';
+      formNote.textContent = 'Something went wrong sending that. Please call or text (970) 390-5906 instead.';
+    } finally {
+      submitBtn.disabled = false;
+    }
   });
 }
 

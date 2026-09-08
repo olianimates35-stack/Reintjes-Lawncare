@@ -541,6 +541,8 @@ p { margin: 0 0 16px; }
   background: var(--white);
 }
 .form-note { margin-top: 14px; font-weight: 600; color: var(--blue); min-height: 20px; }
+.form-note-success { color: #1a7a3d; }
+.form-note-error { color: #b3261e; }
 
 /* CTA band (interior pages) */
 .cta-band {
